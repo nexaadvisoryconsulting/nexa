@@ -522,11 +522,12 @@
            ============================================================ */
         .page-hero {
             padding: 60px 0 40px;
-            background: var(--bg-light);
+            background: var(--bg-dark);
             text-align: center;
-            border-bottom: 1px solid #E5E7EB;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
             position: relative;
             overflow: hidden;
+            color: var(--white);
         }
         .page-hero::before {
             content: '';
@@ -535,13 +536,23 @@
             right: -20%;
             width: 50%;
             height: 200%;
-            background: radial-gradient(ellipse, rgba(212, 175, 55, 0.04) 0%, transparent 70%);
+            background: radial-gradient(ellipse, rgba(212, 175, 55, 0.06) 0%, transparent 70%);
             pointer-events: none;
+        }
+        .page-hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--gold), var(--gold-light), var(--gold), transparent);
+            opacity: 0.3;
         }
         .page-hero h1 {
             font-size: 42px;
             font-weight: 800;
-            color: var(--text-dark);
+            color: var(--white);
             font-family: 'Playfair Display', serif;
             margin-bottom: 8px;
             position: relative;
@@ -554,7 +565,7 @@
         }
         .page-hero p {
             font-size: 17px;
-            color: var(--text-gray);
+            color: rgba(255, 255, 255, 0.6);
             max-width: 640px;
             margin: 0 auto;
             line-height: 1.8;
@@ -563,7 +574,7 @@
         .page-hero .breadcrumb {
             margin-top: 10px;
             font-size: 14px;
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.3);
             position: relative;
         }
         .page-hero .breadcrumb a {
@@ -572,6 +583,35 @@
         }
         .page-hero .breadcrumb a:hover {
             text-decoration: underline;
+        }
+        .page-hero .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(212, 175, 55, 0.12);
+            border: 1px solid rgba(212, 175, 55, 0.15);
+            padding: 6px 18px 6px 12px;
+            border-radius: 50px;
+            color: var(--gold);
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+            backdrop-filter: blur(4px);
+            position: relative;
+        }
+        .page-hero .hero-badge i {
+            font-size: 12px;
+            animation: starPulse 2s ease-in-out infinite;
+        }
+        @keyframes starPulse {
+            0%,
+            100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
         }
 
         /* ============================================================
@@ -656,7 +696,7 @@
            INDUSTRIES GRID
            ============================================================ */
         .industries-section {
-            padding: 40px 0 80px;
+            padding: 40px 0 60px;
             background: var(--bg-white);
         }
         .industries-grid {
@@ -774,19 +814,182 @@
         }
 
         /* ============================================================
+           WHY CHOOSE US
+           ============================================================ */
+        .why-choose-us {
+            padding: 60px 0;
+            background: var(--bg-light);
+            border-top: 1px solid #E5E7EB;
+            border-bottom: 1px solid #E5E7EB;
+        }
+        .why-choose-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+        }
+        .why-choose-item {
+            text-align: center;
+            padding: 28px 20px;
+            background: var(--bg-white);
+            border-radius: var(--radius);
+            border: 1px solid #E5E7EB;
+            transition: var(--transition);
+        }
+        .why-choose-item:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--gold);
+        }
+        .why-choose-item .icon {
+            width: 56px;
+            height: 56px;
+            margin: 0 auto 12px;
+            background: var(--gold-gradient);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: var(--shadow-gold);
+        }
+        .why-choose-item .icon i {
+            font-size: 22px;
+            color: var(--text-dark);
+        }
+        .why-choose-item h4 {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin-bottom: 4px;
+        }
+        .why-choose-item p {
+            font-size: 13px;
+            color: var(--text-gray);
+            line-height: 1.6;
+        }
+
+        /* ============================================================
+           TESTIMONIALS
+           ============================================================ */
+        .testimonials-section {
+            padding: 60px 0;
+            background: var(--bg-white);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .testimonial-card {
+            background: var(--bg-light);
+            padding: 28px 24px;
+            border-radius: var(--radius);
+            border: 1px solid #E5E7EB;
+            transition: var(--transition);
+            text-align: center;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--gold);
+        }
+        .testimonial-card .quote {
+            font-size: 32px;
+            color: var(--gold);
+            opacity: 0.2;
+            margin-bottom: 8px;
+        }
+        .testimonial-card p {
+            font-size: 14px;
+            color: var(--text-gray);
+            line-height: 1.7;
+            font-style: italic;
+            margin-bottom: 12px;
+        }
+        .testimonial-card .author h4 {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+        .testimonial-card .author span {
+            font-size: 13px;
+            color: var(--text-light);
+        }
+
+        /* ============================================================
+           FAQ SECTION
+           ============================================================ */
+        .faq-section {
+            padding: 60px 0 80px;
+            background: var(--bg-light);
+            border-top: 1px solid #E5E7EB;
+        }
+        .faq-list {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            background: var(--bg-white);
+            border-radius: var(--radius-sm);
+            margin-bottom: 12px;
+            border: 1px solid #E5E7EB;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        .faq-item:hover {
+            border-color: var(--gold);
+        }
+        .faq-question {
+            padding: 18px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--text-dark);
+            font-size: 16px;
+            transition: var(--transition);
+        }
+        .faq-question:hover {
+            color: var(--gold);
+        }
+        .faq-question i {
+            transition: var(--transition);
+            color: var(--gold);
+            font-size: 18px;
+        }
+        .faq-item.active .faq-question i {
+            transform: rotate(180deg);
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.4s ease;
+            padding: 0 24px;
+        }
+        .faq-item.active .faq-answer {
+            max-height: 300px;
+            padding: 0 24px 20px;
+        }
+        .faq-answer p {
+            color: var(--text-gray);
+            font-size: 14px;
+            line-height: 1.7;
+        }
+
+        /* ============================================================
            CTA SECTION
            ============================================================ */
         .cta-section {
             padding: 60px 0;
-            background: var(--bg-light);
+            background: var(--bg-dark);
             text-align: center;
-            border-top: 1px solid #E5E7EB;
-            border-bottom: 1px solid #E5E7EB;
+            color: var(--white);
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
         }
         .cta-section h2 {
             font-size: 34px;
             font-weight: 800;
-            color: var(--text-dark);
+            color: var(--white);
             font-family: 'Playfair Display', serif;
             margin-bottom: 10px;
         }
@@ -798,8 +1001,11 @@
         }
         .cta-section p {
             font-size: 17px;
-            color: var(--text-gray);
+            color: rgba(255, 255, 255, 0.5);
             margin-bottom: 24px;
+        }
+        .cta-section .btn-primary {
+            color: var(--text-dark);
         }
 
         /* ============================================================
@@ -936,6 +1142,12 @@
             .industries-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
+            .why-choose-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .testimonials-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
             .footer-grid {
                 grid-template-columns: repeat(2, 1fr);
             }
@@ -958,6 +1170,14 @@
                 width: 100%;
             }
             .industries-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+            .why-choose-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 14px;
+            }
+            .testimonials-grid {
                 grid-template-columns: 1fr;
                 gap: 16px;
             }
@@ -1026,6 +1246,9 @@
             .industry-card .card-actions .btn-outline-gold {
                 width: 100%;
             }
+            .why-choose-grid {
+                grid-template-columns: 1fr;
+            }
             .section-header h2 {
                 font-size: 22px;
             }
@@ -1039,6 +1262,10 @@
             .footer-bottom-links {
                 flex-wrap: wrap;
                 justify-content: center;
+            }
+            .faq-question {
+                font-size: 14px;
+                padding: 14px 18px;
             }
         }
     </style>
@@ -1062,6 +1289,9 @@
         <div class="container">
             <div class="breadcrumb">
                 <a href="/">Home</a> &gt; Industries
+            </div>
+            <div class="hero-badge">
+                <i class="fas fa-industry"></i> Industry-Specific Expertise
             </div>
             <h1>Industries <span>We Serve</span></h1>
             <p>Expert industry-specific advisory solutions tailored to the unique challenges and opportunities of your sector.</p>
@@ -1337,12 +1567,171 @@
         </div>
     </section>
 
+    <!-- ===== WHY CHOOSE US ===== -->
+    <section class="why-choose-us">
+        <div class="container">
+
+            <div class="section-header fade-up">
+                <span class="label">Why Choose Us</span>
+                <h2>Why Work With <span>NEXA</span></h2>
+                <p>Discover what sets NEXA apart as your trusted industry partner.</p>
+            </div>
+
+            <div class="why-choose-grid">
+
+                <div class="why-choose-item fade-up">
+                    <div class="icon"><i class="fas fa-user-tie"></i></div>
+                    <h4>Industry Expertise</h4>
+                    <p>Our team brings deep industry knowledge and years of hands-on experience to every engagement.</p>
+                </div>
+
+                <div class="why-choose-item fade-up">
+                    <div class="icon"><i class="fas fa-cogs"></i></div>
+                    <h4>Tailored Solutions</h4>
+                    <p>We design customized strategies that address the unique challenges of your specific industry.</p>
+                </div>
+
+                <div class="why-choose-item fade-up">
+                    <div class="icon"><i class="fas fa-chart-line"></i></div>
+                    <h4>Proven Results</h4>
+                    <p>We have a track record of delivering measurable results across diverse industries.</p>
+                </div>
+
+                <div class="why-choose-item fade-up">
+                    <div class="icon"><i class="fas fa-handshake"></i></div>
+                    <h4>Trusted Partnership</h4>
+                    <p>We build lasting relationships based on trust, integrity, and mutual success.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials-section">
+        <div class="container">
+
+            <div class="section-header fade-up">
+                <span class="label">Testimonials</span>
+                <h2>What Our <span>Clients</span> Say</h2>
+                <p>Real feedback from businesses we've helped across various industries.</p>
+            </div>
+
+            <div class="testimonials-grid">
+
+                <div class="testimonial-card fade-up">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>"NEXA's industry expertise transformed our banking operations. Their insights helped us navigate complex regulatory challenges with confidence."</p>
+                    <div class="author">
+                        <h4>Rajesh Sharma</h4>
+                        <span>CEO, Nepal Bank</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-up">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>"Working with NEXA on our manufacturing processes was a game-changer. They identified cost-saving opportunities we never knew existed."</p>
+                    <div class="author">
+                        <h4>Priya Gurung</h4>
+                        <span>Operations Director, Gurung Industries</span>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-up">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <p>"NEXA helped our NGO streamline financial reporting and donor compliance. Their expertise in the social sector is unparalleled."</p>
+                    <div class="author">
+                        <h4>David Thompson</h4>
+                        <span>Country Director, Save the Children</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ SECTION ===== -->
+    <section class="faq-section">
+        <div class="container">
+
+            <div class="section-header fade-up">
+                <span class="label">FAQs</span>
+                <h2>Frequently Asked <span>Questions</span></h2>
+                <p>Find answers to the most common questions about our industry-specific services.</p>
+            </div>
+
+            <div class="faq-list">
+
+                <div class="faq-item active fade-up">
+                    <div class="faq-question">
+                        <span>Which industries does NEXA serve?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>NEXA serves a wide range of industries including Banking, Manufacturing, Trading, Education, NGOs/INGOs, Hospitality, Healthcare, Information Technology, Construction, Microfinance, Agriculture &amp; Agri-Business, and Energy &amp; Renewables.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up">
+                    <div class="faq-question">
+                        <span>Do you have experience in my specific industry?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>With our diverse portfolio of clients across 12+ industries, we have extensive experience in most sectors. If you don't see your industry listed, please contact us to discuss how we can help.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up">
+                    <div class="faq-question">
+                        <span>How do you customize solutions for different industries?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We conduct in-depth research and analysis of your specific industry landscape, regulatory environment, and business challenges. Our solutions are then tailored to address these unique factors.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up">
+                    <div class="faq-question">
+                        <span>What industries do you specialize in?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We specialize in 12 major industries: Banking, Manufacturing, Trading, Education, NGOs/INGOs, Hospitality, Healthcare, Information Technology, Construction, Microfinance, Agriculture &amp; Agri-Business, and Energy &amp; Renewables.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up">
+                    <div class="faq-question">
+                        <span>Can you help with industry-specific compliance and regulations?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we have deep expertise in industry-specific compliance requirements. Our team stays up-to-date with the latest regulatory changes to ensure your business remains compliant.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up">
+                    <div class="faq-question">
+                        <span>What makes NEXA different from other consulting firms?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>NEXA combines deep industry knowledge with personalized service, innovative thinking, and a commitment to delivering measurable results. Our industry-specific approach ensures you get solutions that truly work for your sector.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
     <!-- ===== CTA SECTION ===== -->
     <section class="cta-section">
         <div class="container">
-            <h2>Need Industry-Specific <span>Expertise</span>?</h2>
+            <h2>Ready to <span>Transform</span> Your Industry?</h2>
             <p>Contact us today to discuss how our industry-specific solutions can help your business thrive.</p>
-            <a href="/contact.html" class="btn-primary"><i class="fas fa-arrow-right" style="margin-right:8px;"></i> Get in Touch</a>
+            <a href="/contact.html" class="btn-primary"><i class="fas fa-arrow-right" style="margin-right:8px;"></i> Get Started Today</a>
         </div>
     </section>
 
@@ -1412,6 +1801,21 @@
 
         // Search input
         searchInput.addEventListener('keyup', filterIndustries);
+
+        // ============================================================
+        // FAQ ACCORDION
+        // ============================================================
+        document.querySelectorAll('.faq-item').forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', function() {
+                const isActive = item.classList.contains('active');
+                // Close all
+                document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
+                if (!isActive) {
+                    item.classList.add('active');
+                }
+            });
+        });
 
         // ============================================================
         // SEARCH DATA
