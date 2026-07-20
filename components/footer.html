@@ -1,0 +1,620 @@
+<!-- ============================================================
+     FOOTER.HTML - NEXA Advisory & Consulting
+     Place this file in /components/
+     
+     All paths are root-relative (start with /)
+     This ensures navigation works from ANY subfolder
+     ============================================================ -->
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" id="footer">
+    <div class="container">
+
+        <!-- ===== BACK TO TOP BUTTON ===== -->
+        <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+
+        <!-- ===== FOOTER TOP ===== -->
+        <div class="footer-grid">
+
+            <!-- Brand Column -->
+            <div class="footer-brand">
+                <img src="https://i.ibb.co/vCSKvGpV/Banner-White.png" alt="NEXA Advisory & Consulting" />
+                <a href="/" class="logo-text">NEXA<span>.</span></a>
+                <p>Your Trusted Partner in Business Excellence. Empowering businesses with strategic advisory, outsourcing, and financial solutions.</p>
+
+                <!-- Social Icons -->
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <!-- Trust Badges -->
+                <div class="trust-badge">
+                    <span><i class="fas fa-shield-alt"></i> 100% Confidential</span>
+                    <span><i class="fas fa-star"></i> 98% Satisfaction</span>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/services.html">Our Services</a></li>
+                    <li><a href="/industries.html">Industries</a></li>
+                    <li><a href="/outsourcing.html">Outsourcing</a></li>
+                    <li><a href="/why-nexa.html">Why NEXA</a></li>
+                    <li><a href="/resources.html">Resources</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Services -->
+            <div>
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="/services/accounting.html">Accounting &amp; Bookkeeping</a></li>
+                    <li><a href="/services/taxation.html">Taxation &amp; Compliance</a></li>
+                    <li><a href="/services/company-registration.html">Company Registration</a></li>
+                    <li><a href="/services/business-advisory.html">Business Advisory</a></li>
+                    <li><a href="/services/virtual-cfo.html">Virtual CFO</a></li>
+                    <li><a href="/services/financial-reporting.html">Financial Reporting</a></li>
+                    <li><a href="/services/payroll.html">Payroll &amp; HR Services</a></li>
+                    <li><a href="/services/risk-compliance.html">Risk &amp; Compliance</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact + Newsletter -->
+            <div>
+                <h4>Get in Touch</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i> Kathmandu, Nepal</li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+9779768553322">+977 9768553322</a></li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@nexa.com.np">info@nexa.com.np</a></li>
+                    <li><i class="fas fa-clock"></i> Mon - Fri: 9:00 AM - 6:00 PM</li>
+                </ul>
+
+                <!-- Newsletter Signup -->
+                <div class="footer-newsletter">
+                    <p><i class="fas fa-envelope" style="color:var(--gold);margin-right:6px;"></i> Subscribe to Our Newsletter</p>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeqTyccOpmb8hxOPQb1WpykcRcfX4NBTnWfk2lIHMU4DtcUNw/viewform?embedded=true" 
+                            width="100%" 
+                            height="220" 
+                            frameborder="0" 
+                            marginheight="0" 
+                            marginwidth="0" 
+                            style="border-radius:8px;background:transparent;max-width:100%;">
+                        Loading…
+                    </iframe>
+                    <p style="font-size:11px;color:rgba(255,255,255,0.25);margin-top:6px;">We respect your privacy. Unsubscribe anytime.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ===== FOOTER BOTTOM ===== -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-left">
+                <p id="footerDate"></p>
+                <p style="font-size:12px;color:rgba(255,255,255,0.35);margin-top:4px;">
+                    &copy; 2026 <strong>NEXA Advisory &amp; Consulting</strong> Pvt. Ltd. All Rights Reserved.
+                </p>
+            </div>
+            <div class="footer-bottom-right">
+                <ul class="footer-bottom-links">
+                    <li><a href="/pages/privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="/pages/terms-conditions.html">Terms &amp; Conditions</a></li>
+                    <li><a href="/pages/disclaimer.html">Disclaimer</a></li>
+                    <li><a href="/pages/cookie-policy.html">Cookie Policy</a></li>
+                    <li><a href="/sitemap.html">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+<!-- ============================================================
+     FOOTER STYLES
+     ============================================================ -->
+<style>
+    /* ===== FOOTER ===== */
+    .footer {
+        background: var(--text-dark, #1A1A2E);
+        color: rgba(255, 255, 255, 0.6);
+        padding: 50px 0 0;
+        font-family: 'Inter', sans-serif;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Subtle background glow */
+    .footer::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        right: -10%;
+        width: 40%;
+        height: 150%;
+        background: radial-gradient(ellipse, rgba(212, 175, 55, 0.03) 0%, transparent 70%);
+        pointer-events: none;
+    }
+
+    .footer .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 24px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1.5fr;
+        gap: 40px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    /* ===== BACK TO TOP BUTTON ===== */
+    .back-to-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: var(--gold-gradient, linear-gradient(135deg, #D4AF37, #F0D060));
+        color: var(--text-dark, #1A1A2E);
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 0 4px 20px rgba(212, 175, 55, 0.3);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        z-index: 999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(20px) scale(0.8);
+    }
+    .back-to-top.visible {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0) scale(1);
+    }
+    .back-to-top:hover {
+        transform: translateY(-4px) scale(1.05);
+        box-shadow: 0 8px 32px rgba(212, 175, 55, 0.4);
+    }
+    .back-to-top i {
+        font-size: 20px;
+        transition: transform 0.3s ease;
+    }
+    .back-to-top:hover i {
+        transform: translateY(-2px);
+    }
+
+    /* ===== BRAND COLUMN ===== */
+    .footer-brand .logo-text {
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--white, #FFFFFF);
+        margin-bottom: 10px;
+        display: block;
+        font-family: 'Playfair Display', serif;
+        text-decoration: none;
+        letter-spacing: -0.5px;
+    }
+    .footer-brand .logo-text span {
+        color: var(--gold, #D4AF37);
+    }
+    .footer-brand img {
+        height: 50px;
+        width: auto;
+        margin-bottom: 16px;
+        display: block;
+    }
+    .footer-brand p {
+        font-size: 13px;
+        line-height: 1.8;
+        max-width: 300px;
+        color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 16px;
+    }
+
+    /* ===== SOCIAL ICONS ===== */
+    .footer-social {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    .footer-social a {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.06);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 15px;
+        text-decoration: none;
+        border: 1px solid transparent;
+    }
+    .footer-social a:hover {
+        background: var(--gold, #D4AF37);
+        color: var(--text-dark, #1A1A2E);
+        transform: translateY(-3px);
+        border-color: var(--gold, #D4AF37);
+        box-shadow: 0 8px 24px rgba(212, 175, 55, 0.2);
+    }
+
+    /* ===== TRUST BADGE ===== */
+    .trust-badge {
+        display: flex;
+        gap: 20px;
+        margin-top: 14px;
+        flex-wrap: wrap;
+    }
+    .trust-badge span {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.4);
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(255, 255, 255, 0.04);
+        padding: 4px 14px;
+        border-radius: 50px;
+        border: 1px solid rgba(255, 255, 255, 0.04);
+    }
+    .trust-badge span i {
+        color: var(--gold, #D4AF37);
+        font-size: 12px;
+    }
+
+    /* ===== FOOTER HEADINGS ===== */
+    .footer h4 {
+        color: var(--white, #FFFFFF);
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 16px;
+        letter-spacing: 0.5px;
+        position: relative;
+        padding-bottom: 10px;
+    }
+    .footer h4::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 30px;
+        height: 2px;
+        background: var(--gold-gradient, linear-gradient(135deg, #D4AF37, #F0D060));
+        border-radius: 2px;
+    }
+
+    /* ===== FOOTER LINKS ===== */
+    .footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .footer ul li {
+        margin-bottom: 8px;
+    }
+    .footer ul li a {
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.5);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .footer ul li a:hover {
+        color: var(--gold, #D4AF37);
+        transform: translateX(4px);
+    }
+    .footer ul li a::before {
+        content: '›';
+        color: var(--gold, #D4AF37);
+        font-size: 16px;
+        font-weight: 700;
+        opacity: 0;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .footer ul li a:hover::before {
+        opacity: 1;
+        transform: translateX(-2px);
+    }
+
+    /* ===== CONTACT ===== */
+    .footer-contact li {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 13px;
+        margin-bottom: 10px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: 'Inter', sans-serif;
+    }
+    .footer-contact li i {
+        color: var(--gold, #D4AF37);
+        width: 18px;
+        font-size: 14px;
+        text-align: center;
+        flex-shrink: 0;
+    }
+    .footer-contact li a {
+        color: rgba(255, 255, 255, 0.5);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        text-decoration: none;
+    }
+    .footer-contact li a:hover {
+        color: var(--gold, #D4AF37);
+    }
+
+    /* ===== NEWSLETTER ===== */
+    .footer-newsletter {
+        margin-top: 16px;
+    }
+    .footer-newsletter p {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.4);
+        margin-bottom: 8px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .footer-newsletter p i {
+        color: var(--gold, #D4AF37);
+    }
+    .footer-newsletter iframe {
+        border-radius: 8px;
+        background: transparent;
+        max-width: 100%;
+        min-height: 220px;
+        border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    /* ===== FOOTER BOTTOM ===== */
+    .footer-bottom {
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.35);
+        border-top: 1px solid rgba(255, 255, 255, 0.04);
+        margin-top: 0;
+    }
+    .footer-bottom-left p {
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.35);
+        margin: 0;
+    }
+    .footer-bottom-left strong {
+        color: var(--white, #FFFFFF);
+        font-weight: 600;
+    }
+    .footer-bottom-right {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .footer-bottom-links {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .footer-bottom-links li {
+        list-style: none;
+    }
+    .footer-bottom-links a {
+        color: rgba(255, 255, 255, 0.35);
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        text-decoration: none;
+        font-size: 12px;
+        font-family: 'Inter', sans-serif;
+        position: relative;
+    }
+    .footer-bottom-links a::after {
+        content: '|';
+        margin-left: 16px;
+        color: rgba(255, 255, 255, 0.1);
+    }
+    .footer-bottom-links li:last-child a::after {
+        display: none;
+    }
+    .footer-bottom-links a:hover {
+        color: var(--gold, #D4AF37);
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 1024px) {
+        .footer-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+        .back-to-top {
+            width: 45px;
+            height: 45px;
+            font-size: 18px;
+            bottom: 20px;
+            right: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .footer-grid {
+            grid-template-columns: 1fr;
+            text-align: center;
+            gap: 24px;
+        }
+        .footer-brand p {
+            margin: 0 auto;
+        }
+        .footer-brand img {
+            margin: 0 auto 12px;
+        }
+        .footer-social {
+            justify-content: center;
+        }
+        .trust-badge {
+            justify-content: center;
+        }
+        .footer h4::after {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .footer h4 {
+            text-align: center;
+        }
+        .footer ul li a {
+            justify-content: center;
+        }
+        .footer ul li a::before {
+            display: none;
+        }
+        .footer ul li a:hover {
+            transform: none;
+        }
+        .footer-contact li {
+            justify-content: center;
+        }
+        .footer-newsletter iframe {
+            min-height: 240px;
+        }
+        .footer-bottom {
+            flex-direction: column;
+            text-align: center;
+            gap: 8px;
+        }
+        .footer-bottom-right {
+            justify-content: center;
+        }
+        .footer-bottom-links {
+            justify-content: center;
+            gap: 8px;
+        }
+        .footer-bottom-links a::after {
+            display: none;
+        }
+        .footer-bottom-links li {
+            padding: 0 8px;
+            border-right: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        .footer-bottom-links li:last-child {
+            border-right: none;
+        }
+        .back-to-top {
+            width: 40px;
+            height: 40px;
+            font-size: 16px;
+            bottom: 16px;
+            right: 16px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .footer {
+            padding: 30px 0 0;
+        }
+        .footer-grid {
+            gap: 20px;
+            padding-bottom: 24px;
+        }
+        .footer-brand .logo-text {
+            font-size: 20px;
+        }
+        .footer-brand img {
+            height: 40px;
+        }
+        .footer-bottom-links {
+            gap: 4px;
+        }
+        .footer-bottom-links li {
+            padding: 0 6px;
+            font-size: 11px;
+        }
+        .footer-bottom-left p {
+            font-size: 11px;
+        }
+        .footer-newsletter iframe {
+            min-height: 260px;
+        }
+        .trust-badge {
+            flex-direction: column;
+            align-items: center;
+        }
+        .back-to-top {
+            width: 36px;
+            height: 36px;
+            font-size: 14px;
+            bottom: 12px;
+            right: 12px;
+        }
+    }
+</style>
+
+<script>
+    // ============================================================
+    // BACK TO TOP BUTTON
+    // ============================================================
+    (function initBackToTop() {
+        var backToTopBtn = document.getElementById('backToTop');
+
+        if (backToTopBtn) {
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopBtn.classList.add('visible');
+                } else {
+                    backToTopBtn.classList.remove('visible');
+                }
+            });
+
+            backToTopBtn.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        }
+    })();
+
+    // ============================================================
+    // DISPLAY TODAY'S DATE AND DAY
+    // ============================================================
+    (function displayDate() {
+        var dateElement = document.getElementById('footerDate');
+        if (dateElement) {
+            var now = new Date();
+            var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            
+            var dayName = days[now.getDay()];
+            var date = now.getDate();
+            var month = months[now.getMonth()];
+            var year = now.getFullYear();
+            
+            dateElement.textContent = dayName + ', ' + month + ' ' + date + ', ' + year;
+            dateElement.style.fontSize = '13px';
+            dateElement.style.color = 'rgba(255,255,255,0.4)';
+            dateElement.style.fontWeight = '400';
+            dateElement.style.letterSpacing = '0.5px';
+        }
+    })();
+</script>
