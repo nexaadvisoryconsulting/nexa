@@ -6,49 +6,49 @@
 
     <!-- ===== MAIN PAGES ===== -->
     <url>
-        <loc>https://nexaconsulting.com/</loc>
+        <loc>https://nexa.com.np/</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/about.html</loc>
+        <loc>https://nexa.com.np/about.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services.html</loc>
+        <loc>https://nexa.com.np/services.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries.html</loc>
+        <loc>https://nexa.com.np/industries.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/outsourcing.html</loc>
+        <loc>https://nexa.com.np/outsourcing.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/why-nexa.html</loc>
+        <loc>https://nexa.com.np/why-nexa.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/resources.html</loc>
+        <loc>https://nexa.com.np/resources.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/contact.html</loc>
+        <loc>https://nexa.com.np/contact.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -56,91 +56,91 @@
 
     <!-- ===== SERVICES PAGES ===== -->
     <url>
-        <loc>https://nexaconsulting.com/services/accounting.html</loc>
+        <loc>https://nexa.com.np/services/accounting.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/taxation.html</loc>
+        <loc>https://nexa.com.np/services/taxation.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/company-registration.html</loc>
+        <loc>https://nexa.com.np/services/company-registration.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/business-advisory.html</loc>
+        <loc>https://nexa.com.np/services/business-advisory.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/virtual-cfo.html</loc>
+        <loc>https://nexa.com.np/services/virtual-cfo.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/financial-reporting.html</loc>
+        <loc>https://nexa.com.np/services/financial-reporting.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/payroll.html</loc>
+        <loc>https://nexa.com.np/services/payroll.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/risk-compliance.html</loc>
+        <loc>https://nexa.com.np/services/risk-compliance.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/business-valuation.html</loc>
+        <loc>https://nexa.com.np/services/business-valuation.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/internal-audit.html</loc>
+        <loc>https://nexa.com.np/services/internal-audit.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/wealth-management.html</loc>
+        <loc>https://nexa.com.np/services/wealth-management.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/legal-advisory.html</loc>
+        <loc>https://nexa.com.np/services/legal-advisory.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/mergers-acquisitions.html</loc>
+        <loc>https://nexa.com.np/services/mergers-acquisitions.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/international-business-advisory.html</loc>
+        <loc>https://nexa.com.np/services/international-business-advisory.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/services/digital-transformation.html</loc>
+        <loc>https://nexa.com.np/services/digital-transformation.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -148,73 +148,73 @@
 
     <!-- ===== INDUSTRIES PAGES ===== -->
     <url>
-        <loc>https://nexaconsulting.com/industries/banking.html</loc>
+        <loc>https://nexa.com.np/industries/banking.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries/manufacturing.html</loc>
+        <loc>https://nexa.com.np/industries/manufacturing.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries/trading.html</loc>
+        <loc>https://nexa.com.np/industries/trading.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries/education.html</loc>
+        <loc>https://nexa.com.np/industries/education.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries/ngos-ingos.html</loc>
+        <loc>https://nexa.com.np/industries/ngos-ingos.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries/hospitality.html</loc>
+        <loc>https://nexa.com.np/industries/hospitality.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries/health-care.html</loc>
+        <loc>https://nexa.com.np/industries/health-care.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries/it.html</loc>
+        <loc>https://nexa.com.np/industries/it.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries/construction.html</loc>
+        <loc>https://nexa.com.np/industries/construction.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries/micro-finance.html</loc>
+        <loc>https://nexa.com.np/industries/micro-finance.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries/agriculture.html</loc>
+        <loc>https://nexa.com.np/industries/agriculture.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/industries/energy.html</loc>
+        <loc>https://nexa.com.np/industries/energy.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
@@ -222,25 +222,25 @@
 
     <!-- ===== RESOURCES PAGES ===== -->
     <url>
-        <loc>https://nexaconsulting.com/resources/blog.html</loc>
+        <loc>https://nexa.com.np/resources/blog.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/resources/careers.html</loc>
+        <loc>https://nexa.com.np/resources/careers.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/resources/downloads.html</loc>
+        <loc>https://nexa.com.np/resources/downloads.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/resources/faqs.html</loc>
+        <loc>https://nexa.com.np/resources/faqs.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
@@ -248,25 +248,25 @@
 
     <!-- ===== LEGAL PAGES ===== -->
     <url>
-        <loc>https://nexaconsulting.com/pages/privacy-policy.html</loc>
+        <loc>https://nexa.com.np/pages/privacy-policy.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/pages/terms-conditions.html</loc>
+        <loc>https://nexa.com.np/pages/terms-conditions.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/pages/disclaimer.html</loc>
+        <loc>https://nexa.com.np/pages/disclaimer.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/pages/cookie-policy.html</loc>
+        <loc>https://nexa.com.np/pages/cookie-policy.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
@@ -274,13 +274,13 @@
 
     <!-- ===== ADDITIONAL PAGES ===== -->
     <url>
-        <loc>https://nexaconsulting.com/sitemap.html</loc>
+        <loc>https://nexa.com.np/sitemap.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
-        <loc>https://nexaconsulting.com/404.html</loc>
+        <loc>https://nexa.com.np/404.html</loc>
         <lastmod>2026-07-21</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.1</priority>
