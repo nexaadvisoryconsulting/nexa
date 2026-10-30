@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you
+Disallow: /careers/apply/
+
+Sitemap: https://www.nexa.com.np/sitemap.xml
