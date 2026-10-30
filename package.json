@@ -1,0 +1,12 @@
+{
+  "name": "nexa-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "verify": "node scripts/verify.mjs",
+    "dev": "node build.mjs && node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
